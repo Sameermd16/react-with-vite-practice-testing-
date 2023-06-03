@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #282D35;
+}
+nav{
+  display: flex;
+  align-items: center;
+  background-color: #01222A;
+  height: 90px;
+  padding: 30px 25px;
+  color: white;
+}
+nav > img{
+  margin-right: 7px;
+  height: 30px;
+}
+nav > h3 {
+  margin-right: auto;
+  color: #61DAFB;
+}
+main{
+  color: white;
+  padding: 60px 25px;
+}
+main > ul > li{
+  padding: 10px;
+}
+main > ul > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
